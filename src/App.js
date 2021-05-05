@@ -7,8 +7,9 @@ import Footer from "./components/Footer";
 
 function App() {
   const myRef = useRef(null);
+
   useEffect(() => {
-    myRef.current.play();
+    if (myRef && !myRef.current.playing) handlePlay();
   }, []);
 
   const handlePlay = () => {
@@ -20,10 +21,11 @@ function App() {
       <video
         ref={myRef}
         id="bkgVideo"
-        src="bkground.mp4"
+        src="cyberpunk.mp4"
         autoPlay={true}
-        autoplay
+        autoplay={true}
         loop={true}
+        muted
       />
       <Container className="mainContainer" fluid>
         <Jumbotron className="jt">
