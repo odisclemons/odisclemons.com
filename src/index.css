@@ -38,6 +38,7 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
   color: #0c4b8c;
   padding: 0.5rem 1rem;
+  font-size: 1.5rem;
 }
 
 .jt {
@@ -64,7 +65,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
   height: 20rem;
 }
 
@@ -73,24 +74,85 @@ body {
   margin: 1rem 0.5rem;
   border-radius: 0.5rem;
   border: 3px solid #0c4b8c;
-  padding: 0.25rem;
+  padding: 1rem;
+  background-color: black;
+  position: relative;
+  overflow: hidden;
 }
 
+.portfolioImg:hover .portfolioInfo {
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.portfolioImg:hover {
+  border-color: white;
+  transition: 2.5s;
+}
+
+.portfolioImg img {
+  width: 100%;
+}
+
+.portfolioInfo {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+  text-align: center;
+  color: white;
+  overflow-y: auto;
+}
+
+.portfolioInfo p {
+  font-size: 1.15rem;
+  padding: 1rem;
+  text-align: justify;
+  text-indent: 1rem;
+}
+
+.portfolioInfo img {
+  width: 10rem;
+}
 .portrait {
   border-radius: 50%;
   border: 5px solid #0c4b8c;
   overflow: hidden;
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   background-size: cover;
   background-repeat: no-repeat;
   float: right;
   align-self: end;
+  position: relative;
+  transition: 0.5s;
 }
 
-.jt .row .col {
-  display: flex !important;
+.portrait:hover .portfolioInfo {
+  bottom: 0;
+  transition: 0.5s;
+}
+
+.portrait:hover {
+  border-color: white;
+  transition: 2.5s;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.99);
+  height: 5rem;
+  padding: 0;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem;
+  align-items: center;
+  color: white;
+  text-align: center;
 }
