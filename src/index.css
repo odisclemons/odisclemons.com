@@ -11,6 +11,13 @@ body {
   justify-content: center;
 }
 
+.linkedInText {
+  color: white;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
 .mainContainer {
   padding: 0 !important;
   margin: 0 !important;

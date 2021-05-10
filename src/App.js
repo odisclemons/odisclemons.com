@@ -51,16 +51,7 @@ function App() {
                       justifyContent: "center",
                     }}
                   >
-                    <p
-                      style={{
-                        color: "white",
-                        fontWeight: "bold",
-                        marginRight: ".5rem",
-                        fontSize: "2rem",
-                      }}
-                    >
-                      Linked
-                    </p>
+                    <span className="linkedInText">Linked</span>
                     <img
                       style={{ height: "2.5rem", width: "auto" }}
                       src="5a22d420c9a5a7.416105621512231968826.png"
@@ -85,7 +76,7 @@ function App() {
               </h3>
               <p
                 className="mainHeader"
-                style={{ color: "black", fontWeight: "unset" }}
+                style={{ color: "black", fontWeight: "unset", margin: 0 }}
               >
                 Welcome to my personal website. As you may have guessed, I am
                 Odis Clemons. I've been writing software in different languages
@@ -132,10 +123,7 @@ function App() {
                   className="portfolioInfo"
                   onClick={() => window.open("https://newarkha.org", "_blank")}
                 >
-                  <img
-                    alt="NHA Logo"
-                    src="https://newarkha.org/Portals/0/anniversarylogo.png?ver=2019-05-11-133337-573"
-                  />
+                  <img alt="NHA Logo" src="anniversarylogo.png" />
                   <h1>Newarkha.org</h1>
                   <p>
                     This is the main website of the Newark Housing Authority,
@@ -156,10 +144,7 @@ function App() {
                     window.open("https://nhasf.newarkha.org", "_blank")
                   }
                 >
-                  <img
-                    alt="nhasf logo"
-                    src="https://www.newarkha.org/portals/1/nhasf%20images/NHASF%20Icon.png?ver=2019-05-15-170424-927"
-                  />
+                  <img alt="nhasf logo" src="NHASF%20Icon.png" />
                   <h1>NHA Scholarship Foundation</h1>
                   <p>
                     Each year, this scholarship has been offered to high school
