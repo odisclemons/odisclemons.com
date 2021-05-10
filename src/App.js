@@ -157,7 +157,7 @@ function App() {
                     required documents, and view their overall application
                     progress. Administrators and judges can see the progress of
                     all applicants, communicate with them, and view all of their
-                    documents- all from the same application.
+                    documents - all from the same application.
                   </p>
                 </div>
               </div>
