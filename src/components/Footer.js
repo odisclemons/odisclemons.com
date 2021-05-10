@@ -1,10 +1,12 @@
 const Footer = () => {
   return (
-    <div className="footer">
-      © Copyright Odis Clemons 2021
-      <br />
-      All rights reserved.
-    </div>
+    <footer className="footer">
+      <p>
+        <span style={{ fontWeight: "bold" }}>©</span> 2021 Odis Clemons.
+        <br />
+        All rights reserved.
+      </p>
+    </footer>
   );
 };
 

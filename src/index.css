@@ -51,6 +51,7 @@ body {
   font-size: 1.25rem;
   margin-top: 1rem;
   text-indent: 2.5rem;
+  overflow-y: auto;
 }
 
 .techList {
@@ -59,6 +60,7 @@ body {
   border-radius: 0.5rem;
   padding: 0.5rem;
   height: auto;
+  overflow-y: auto;
 }
 
 .jtCol {
@@ -92,6 +94,11 @@ body {
 
 .portfolioImg img {
   width: 100%;
+}
+
+.portrait .portfolioInfo {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 .portfolioInfo {
@@ -129,10 +136,10 @@ body {
   height: 15rem;
   background-size: cover;
   background-repeat: no-repeat;
-  float: right;
   align-self: end;
   position: relative;
   transition: 0.5s;
+  margin: auto;
 }
 
 .portrait:hover .portfolioInfo {

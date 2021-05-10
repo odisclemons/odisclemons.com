@@ -1,6 +1,5 @@
-import { Container, Row, Col, Jumbotron, Button } from "react-bootstrap";
+import { Container, Row, Col, Jumbotron } from "react-bootstrap";
 import { useRef, useEffect } from "react";
-import Navigation from "./components/Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import Footer from "./components/Footer";
@@ -65,6 +64,7 @@ function App() {
                     <img
                       style={{ height: "2.5rem", width: "auto" }}
                       src="5a22d420c9a5a7.416105621512231968826.png"
+                      alt="linkedIn logo"
                     />
                   </div>
                 </div>
@@ -127,12 +127,15 @@ function App() {
           <Row>
             <Col style={{ display: "flex", justifyContent: "space-evenly" }}>
               <div className="portfolioImg">
-                <img src="nha.png" />
+                <img src="nha.png" alt="screenshot of newarkha.org" />
                 <div
                   className="portfolioInfo"
                   onClick={() => window.open("https://newarkha.org", "_blank")}
                 >
-                  <img src="https://newarkha.org/Portals/0/anniversarylogo.png?ver=2019-05-11-133337-573" />
+                  <img
+                    alt="NHA Logo"
+                    src="https://newarkha.org/Portals/0/anniversarylogo.png?ver=2019-05-11-133337-573"
+                  />
                   <h1>Newarkha.org</h1>
                   <p>
                     This is the main website of the Newark Housing Authority,
@@ -146,14 +149,17 @@ function App() {
                 </div>
               </div>
               <div className="portfolioImg">
-                <img src="nhasf.png" />
+                <img alt="screenshot of nhasf website" src="nhasf.png" />
                 <div
                   className="portfolioInfo"
                   onClick={() =>
                     window.open("https://nhasf.newarkha.org", "_blank")
                   }
                 >
-                  <img src="https://www.newarkha.org/portals/1/nhasf%20images/NHASF%20Icon.png?ver=2019-05-15-170424-927" />
+                  <img
+                    alt="nhasf logo"
+                    src="https://www.newarkha.org/portals/1/nhasf%20images/NHASF%20Icon.png?ver=2019-05-15-170424-927"
+                  />
                   <h1>NHA Scholarship Foundation</h1>
                   <p>
                     Each year, this scholarship has been offered to high school
