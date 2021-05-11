@@ -29,7 +29,7 @@ function App() {
       <Container className="mainContainer" fluid>
         <Jumbotron className="jt">
           <Row>
-            <Col md={3} className="jtCol vCenter">
+            <Col md={3} sm={12} className="jtCol vCenter">
               <div
                 className="portrait"
                 style={{ backgroundImage: "url(odis.jpg)", padding: "4rem" }}
@@ -63,6 +63,7 @@ function App() {
             </Col>
             <Col
               md={6}
+              sm={12}
               className="jtCol"
               style={{
                 justifyContent: "space-between",
@@ -90,7 +91,7 @@ function App() {
                 that have restricted access so I can't show them off.
               </p>
             </Col>
-            <Col className="jtCol" md={3}>
+            <Col className="jtCol" md={3} sm={12}>
               <div className="techList">
                 <h3 style={{ color: "#0c4b8c" }}>Things I Know</h3>
                 <hr></hr>
@@ -116,13 +117,13 @@ function App() {
           }}
         >
           <Row>
-            <Col style={{ display: "flex", justifyContent: "space-evenly" }}>
-              <div className="portfolioImg">
+            <Col className="portfolioCol">
+              <div
+                className="portfolioImg"
+                onClick={() => window.open("https://newarkha.org", "_blank")}
+              >
                 <img src="nha.png" alt="screenshot of newarkha.org" />
-                <div
-                  className="portfolioInfo"
-                  onClick={() => window.open("https://newarkha.org", "_blank")}
-                >
+                <div className="portfolioInfo">
                   <img alt="NHA Logo" src="anniversarylogo.png" />
                   <h1>Newarkha.org</h1>
                   <p>
@@ -136,14 +137,14 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="portfolioImg">
+              <div
+                className="portfolioImg"
+                onClick={() =>
+                  window.open("https://nhasf.newarkha.org", "_blank")
+                }
+              >
                 <img alt="screenshot of nhasf website" src="nhasf.png" />
-                <div
-                  className="portfolioInfo"
-                  onClick={() =>
-                    window.open("https://nhasf.newarkha.org", "_blank")
-                  }
-                >
+                <div className="portfolioInfo">
                   <img alt="nhasf logo" src="NHASF%20Icon.png" />
                   <h1>NHA Scholarship Foundation</h1>
                   <p>
