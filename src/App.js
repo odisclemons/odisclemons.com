@@ -29,21 +29,18 @@ function App() {
       <Container className="mainContainer" fluid>
         <Jumbotron className="jt">
           <Row>
-            <Col md={3} sm={12} className="jtCol vCenter">
+            <Col lg={3} md={6} sm={12} className="jtCol vCenter jtCol0">
               <div
                 className="portrait"
                 style={{ backgroundImage: "url(odis.jpg)", padding: "4rem" }}
-                onClick={handlePlay}
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/odisclemons",
+                    "_blank"
+                  )
+                }
               >
-                <div
-                  className="portfolioInfo"
-                  onClick={() =>
-                    window.open(
-                      "https://www.linkedin.com/in/odisclemons",
-                      "_blank"
-                    )
-                  }
-                >
+                <div className="portfolioInfo">
                   <div
                     style={{
                       display: "flex",
@@ -62,9 +59,10 @@ function App() {
               </div>
             </Col>
             <Col
-              md={6}
+              lg={6}
+              md={12}
               sm={12}
-              className="jtCol"
+              className="jtCol jtCol1"
               style={{
                 justifyContent: "space-between",
               }}
@@ -91,7 +89,7 @@ function App() {
                 that have restricted access so I can't show them off.
               </p>
             </Col>
-            <Col className="jtCol" md={3} sm={12}>
+            <Col className="jtCol jtCol2" lg={3} md={6} sm={12}>
               <div className="techList">
                 <h3 style={{ color: "#0c4b8c" }}>Things I Know</h3>
                 <hr></hr>
@@ -109,13 +107,7 @@ function App() {
             </Col>
           </Row>
         </Jumbotron>
-        <Container
-          fluid={true}
-          style={{
-            backgroundColor: "rgba(9, 8, 40, 0.95)",
-            minHeight: "25rem",
-          }}
-        >
+        <Container className="portfolioContainer" fluid={true}>
           <Row>
             <Col className="portfolioCol">
               <div
