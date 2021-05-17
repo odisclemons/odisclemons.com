@@ -113,7 +113,7 @@ function App() {
         </Jumbotron>
         <Container className="portfolioContainer" fluid={true}>
           <Row>
-            <Col sm={12}>
+            <Col sm={12} md={6}>
               <div
                 className="portfolioImg"
                 onClick={() => window.open("https://newarkha.org", "_blank")}
@@ -134,7 +134,7 @@ function App() {
                 </div>
               </div>
             </Col>
-            <Col sm={12}>
+            <Col sm={12} md={6}>
               <div
                 className="portfolioImg"
                 onClick={() =>
