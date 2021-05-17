@@ -26,7 +26,11 @@ function App() {
         loop={true}
         muted
       />
-      <Container className="mainContainer" fluid>
+      <Container
+        className="mainContainer"
+        fluid
+        style={{ position: "relative" }}
+      >
         <Jumbotron className="jt">
           <Row>
             <Col lg={3} md={6} sm={12} className="jtCol vCenter jtCol0">
@@ -109,7 +113,7 @@ function App() {
         </Jumbotron>
         <Container className="portfolioContainer" fluid={true}>
           <Row>
-            <Col className="portfolioCol">
+            <Col sm={12}>
               <div
                 className="portfolioImg"
                 onClick={() => window.open("https://newarkha.org", "_blank")}
@@ -129,6 +133,8 @@ function App() {
                   </p>
                 </div>
               </div>
+            </Col>
+            <Col sm={12}>
               <div
                 className="portfolioImg"
                 onClick={() =>

@@ -1,12 +1,14 @@
+import Nav from "react-bootstrap/Nav";
+
 const Footer = () => {
   return (
-    <footer className="footer">
+    <Nav fixed bottom className="footer">
       <p>
         <span style={{ fontWeight: "bold" }}>©</span> 2021 Odis Clemons.
         <br />
         All rights reserved.
       </p>
-    </footer>
+    </Nav>
   );
 };
 
