@@ -113,7 +113,7 @@ function App() {
         </Jumbotron>
         <Container className="portfolioContainer" fluid={true}>
           <Row>
-            <Col sm={12} md={6}>
+            <Col sm={12} md={4}>
               <div
                 className="portfolioImg"
                 onClick={() => window.open("https://newarkha.org", "_blank")}
@@ -134,7 +134,7 @@ function App() {
                 </div>
               </div>
             </Col>
-            <Col sm={12} md={6}>
+            <Col sm={12} md={4}>
               <div
                 className="portfolioImg"
                 onClick={() =>
@@ -158,6 +158,21 @@ function App() {
                     all applicants, communicate with them, and view all of their
                     documents - all from the same application.
                   </p>
+                </div>
+              </div>
+            </Col>
+            <Col sm={12} md={4}>
+              <div
+                className="portfolioImg"
+                onClick={() =>
+                  window.open("http://Kimskreativedesigns.com", "_blank")
+                }
+              >
+                <img alt="screenshot of kkd website" src="kkd.png" />
+                <div className="portfolioInfo">
+                  {/* <img alt="nhasf logo" src="NHASF%20Icon.png" /> */}
+                  <h1>Kim's Kreative Designs</h1>
+                  <p></p>
                 </div>
               </div>
             </Col>

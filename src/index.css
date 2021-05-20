@@ -168,11 +168,14 @@ body {
   align-items: center;
   color: white;
   text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
 }
 
 .portfolioContainer {
   background-color: rgba(9, 8, 40, 0.95);
-  min-height: 25rem;
+  /* min-height: 25rem; */
 }
 
 .portfolioCol {
