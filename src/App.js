@@ -165,7 +165,7 @@ function App() {
               <div
                 className="portfolioImg"
                 onClick={() =>
-                  window.open("http://Kimskreativedesigns.com", "_blank")
+                  window.open("https://Kimskreativedesigns.com", "_blank")
                 }
               >
                 <img alt="screenshot of kkd website" src="kkd.png" />
