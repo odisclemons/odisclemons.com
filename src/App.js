@@ -99,7 +99,6 @@ function App() {
                 <hr></hr>
                 <ul>
                   <li>React</li>
-                  <li>GraphQL (I'm in love!)</li>
                   <li>Node.js</li>
                   <li>Javascript</li>
                   <li>Express</li>
