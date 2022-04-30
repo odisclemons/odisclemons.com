@@ -17,20 +17,21 @@ function App() {
 
   return (
     <>
-      <video
-        ref={myRef}
-        id="bkgVideo"
-        src="cyberpunk.mp4"
-        autoPlay={true}
-        autoplay={true}
-        loop={true}
-        muted
-      />
+
       <Container
         className="mainContainer"
         fluid
         style={{ position: "relative" }}
       >
+        <video
+          ref={myRef}
+          id="bkgVideo"
+          src="cyberpunk.mp4"
+          autoPlay={true}
+          autoplay={true}
+          loop={true}
+          muted
+        />
         <Jumbotron className="jt">
           <Row>
             <Col lg={3} md={6} sm={12} className="jtCol vCenter jtCol0">

@@ -25,16 +25,21 @@ body {
   background-size: cover; */
   position: relative;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   min-height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #bkgVideo {
   width: 100vw;
-  /* min-height: 100vh; */
+  /* display: none; */
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0;
 }
 
 .mainHeader {
@@ -51,6 +56,7 @@ body {
 .jt {
   background-color: rgba(255, 255, 255, 0.5);
   margin: 3rem 5rem;
+  z-index: 1;
 }
 
 .jt p {
@@ -122,18 +128,24 @@ body {
   text-align: center;
   color: white;
   overflow-y: auto;
+  padding-top: .5rem;
+}
+
+.portfolioInfo h1 {
+  font-size: 1.3rem;
 }
 
 .portfolioInfo p {
-  font-size: 1.15rem;
+  font-size: 1rem;
   padding: 1rem;
   text-align: justify;
   text-indent: 1rem;
 }
 
 .portfolioInfo img {
-  width: 10rem;
+  width: 10%;
 }
+
 .portrait {
   border-radius: 50%;
   border: 5px solid #0c4b8c;
@@ -174,8 +186,13 @@ body {
 }
 
 .portfolioContainer {
-  background-color: rgba(9, 8, 40, 0.95);
-  /* min-height: 25rem; */
+  background-color: rgba(9, 8, 40, 0.8);
+  z-index: 1;
+  flex-grow: .5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .portfolioCol {
@@ -216,7 +233,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .jumbotron {
-    margin: 0;
+    margin: 0 1rem;
     background-color: unset;
   }
 
