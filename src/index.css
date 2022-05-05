@@ -72,8 +72,15 @@ body {
   border: 2px solid white;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  height: auto;
+  height: 20rem;
   overflow-y: auto;
+}
+
+.techList ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  /* list-style-position: inside; */
 }
 
 .jtCol {
@@ -273,6 +280,10 @@ body {
 
   .portfolioCol {
     display: block;
+  }
+
+  .techList {
+    height: auto;
   }
 
   .techList h3 {

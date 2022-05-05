@@ -9,6 +9,8 @@ function App() {
 
   useEffect(() => {
     if (myRef && !myRef.current.playing) handlePlay();
+    console.log("Welcome to my site. It's beautiful, responsive, and written in React.")
+    console.log("Come on, give me a job!  I do great work.")
   }, []);
 
   const handlePlay = () => {
@@ -28,7 +30,6 @@ function App() {
           id="bkgVideo"
           src="cyberpunk.mp4"
           autoPlay={true}
-          autoplay={true}
           loop={true}
           muted
         />
@@ -106,6 +107,8 @@ function App() {
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Bootstrap</li>
+                  <li>Jest</li>
+                  <li>Heroku</li>
                 </ul>
               </div>
             </Col>
