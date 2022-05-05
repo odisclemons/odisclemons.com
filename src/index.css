@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lemonada&display=swap");
 
+a,
+a:hover,
+a:visited {
+  text-decoration: inherit;
+}
+
+html {
+  font-size: 14px;
+}
+
 body {
   position: relative;
   overflow-x: hidden;
@@ -9,6 +19,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.myLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myLinks img {
+  height: 2.5rem;
+  width: auto;
 }
 
 .linkedInText {
@@ -21,8 +42,6 @@ body {
 .mainContainer {
   padding: 0 !important;
   margin: 0 !important;
-  /* background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  background-size: cover; */
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -35,27 +54,28 @@ body {
 
 #bkgVideo {
   width: 100vw;
-  /* display: none; */
   position: absolute;
   top: 0;
   left: 0;
   z-index: 0;
 }
 
-.mainHeader {
-  /* font-family: "Lemonada", cursive; */
+#mainHeader * {
   display: block;
   border: 1px solid white;
   border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.6);
   color: #0c4b8c;
   padding: 0.5rem 1rem;
-  font-size: 1.5rem;
+}
+
+#mainHeader p {
+  flex-grow: 1;
 }
 
 .jt {
   background-color: rgba(255, 255, 255, 0.5);
-  margin: 3rem 5rem;
+  margin: 1.5rem 5rem;
   z-index: 1;
 }
 
@@ -80,7 +100,7 @@ body {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-  /* list-style-position: inside; */
+  height: auto;
 }
 
 .jtCol {
@@ -91,7 +111,6 @@ body {
 }
 
 .portfolioImg {
-  /* max-width: 40rem; */
   margin: 1rem 0.5rem;
   border-radius: 0.5rem;
   border: 3px solid #0c4b8c;
@@ -149,8 +168,10 @@ body {
   text-indent: 1rem;
 }
 
-.portfolioInfo img {
-  width: 10%;
+svg {
+  color: white;
+  background-color: white;
+  border-radius: 1rem;
 }
 
 .portrait {
