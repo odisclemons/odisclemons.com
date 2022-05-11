@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   const myRef = useRef(null);
+  const portraitRef = useRef(null);
 
   useEffect(() => {
     if (myRef && !myRef.current.playing) handlePlay();
@@ -37,6 +38,7 @@ function App() {
           <Row>
             <Col lg={3} md={6} sm={12} className="jtCol vCenter jtCol0">
               <div
+                ref={portraitRef}
                 className="portrait"
                 style={{ backgroundImage: "url(odis.jpg)", padding: "4rem" }}
               >
@@ -178,9 +180,9 @@ function App() {
               >
                 <img alt="screenshot of kkd website" src="kkd.png" />
                 <div className="portfolioInfo">
-                  {/* <img alt="nhasf logo" src="NHASF%20Icon.png" /> */}
+                  <img alt="nhasf logo" src="https://kimskreativedesigns.com/images/butterfly.png" />
                   <h1>Kim's Kreative Designs</h1>
-                  <p></p>
+                  <p>This project was a ton of fun.  Kim reached out to me and said "I know you do good work.  Just make it look good." I took her amazing designs and did my best to put them on display for her.</p>
                 </div>
               </div>
             </Col>
