@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/odisclemons.com/static/css/main.679d4641.chunk.css",
+    "main.js": "/odisclemons.com/static/js/main.b3c1012d.chunk.js",
+    "main.js.map": "/odisclemons.com/static/js/main.b3c1012d.chunk.js.map",
+    "runtime-main.js": "/odisclemons.com/static/js/runtime-main.1910149e.js",
+    "runtime-main.js.map": "/odisclemons.com/static/js/runtime-main.1910149e.js.map",
+    "static/css/2.d6008dad.chunk.css": "/odisclemons.com/static/css/2.d6008dad.chunk.css",
+    "static/js/2.b9ed4468.chunk.js": "/odisclemons.com/static/js/2.b9ed4468.chunk.js",
+    "static/js/2.b9ed4468.chunk.js.map": "/odisclemons.com/static/js/2.b9ed4468.chunk.js.map",
+    "index.html": "/odisclemons.com/index.html",
+    "static/css/2.d6008dad.chunk.css.map": "/odisclemons.com/static/css/2.d6008dad.chunk.css.map",
+    "static/css/main.679d4641.chunk.css.map": "/odisclemons.com/static/css/main.679d4641.chunk.css.map",
+    "static/js/2.b9ed4468.chunk.js.LICENSE.txt": "/odisclemons.com/static/js/2.b9ed4468.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1910149e.js",
+    "static/css/2.d6008dad.chunk.css",
+    "static/js/2.b9ed4468.chunk.js",
+    "static/css/main.679d4641.chunk.css",
+    "static/js/main.b3c1012d.chunk.js"
+  ]
+}
