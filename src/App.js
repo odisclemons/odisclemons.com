@@ -180,7 +180,7 @@ function App() {
               >
                 <img alt="screenshot of kkd website" src="kkd.png" />
                 <div className="portfolioInfo">
-                  <img alt="nhasf logo" src="https://kimskreativedesigns.com/images/butterfly.png" />
+                  <img alt="Kim's Butterfly Logo" src="https://kimskreativedesigns.com/images/butterfly.png" />
                   <h1>Kim's Kreative Designs</h1>
                   <p>This project was a ton of fun.  Kim reached out to me and said "I know you do good work.  Just make it look good." I took her amazing designs and did my best to put them on display for her.</p>
                 </div>
